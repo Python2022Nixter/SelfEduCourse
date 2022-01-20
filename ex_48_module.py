@@ -8,3 +8,12 @@ def floor(x):
     """
     print("function from mymodule.....  floor(%s)" % x)
     return x // 1
+
+# import courses,
+
+
+import courses
+
+print(dir(courses))
+courses.html.get_html()
+courses.java.get_java()
