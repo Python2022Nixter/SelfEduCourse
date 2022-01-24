@@ -6,9 +6,9 @@ file = open('folder/my_file.txt', encoding='utf-8')
 print(file.read(4))
 print(file.read(4))
 print(file.read(4))
-file.seek(0)
+file.seek(0)  # перемещаем курсор в начало файла
 print(file.read(4))
-print(file.tell())
+print(file.tell()) # возвращает позицию курсора
 
 
 
